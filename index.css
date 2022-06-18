@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+}
+header{
+    background-color: blueviolet;
+    position: static;
+}
+nav{
+    position: sticky;
+    top:0px;
+}
+#logo{
+    width: 30%;
+    height:50%;
+    vertical-align: middle;
+    margin: 1.5em;
+    margin-left: 5em;
+}
+nav{
+    position: sticky;
+    position: -webkit-sticky;
+}
+#navigation{
+    background-color: #151b29;
+}
+.navitems>li{
+    list-style: none;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: Comic Sans MS;
+    margin: .5em;
+    border: .2em solid #fcbf49;
+    padding: .2em;
+    border-radius: .3em;
+    color:#ffa260;
+    transition: color .25s, border-color 0.25s , box-shadow 0.25s , transform 0.25s;
+}
+.navitems>li:hover{
+    border-color: #f1ff5c;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -.4em #f1ff5c;
+    transform: translateY(-.25em);
+    cursor: pointer;
+    text-align:inherit;
+    
+}
+#home>ul{
+    display: none;
+    position: absolute;
+    color: #f1ff5c;
+    z-index: 1;
+    list-style: none;
+    min-width:max-content;
+    border-radius: .3em;
+}
+#home>ul>li{
+    list-style: none;
+    cursor: pointer;
+    display:block;
+    font-family: Comic Sans MS;
+    margin: .2em;
+    border: .2em solid #fcbf49;
+    padding: .2em;
+    border-radius: .3em;
+    color:#ffa260;
+    transition: color .5s, border-color 0.5s , box-shadow 0.5s , transform 0.5s;
+}
+    
+#home>ul>li:hover{
+    border: solid;
+    border-color: #f1ff5c;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -.4em #f1ff5c;
+}
+#home:hover ul{
+    display:inline-block;
+    position:absolute;
+    top:2em;
+    background-color: #151b29;
+    text-align: left;
+    padding-left: 0;
+}
+#home:hover ul li:nth-of-type(1){
+    margin-top:1em;
+}
+.myslides{
+    width: 100%;
+}
+main{
+    background-image: url(pexels-jess-bailey-designs-1097930.jpeg);
+    background-size:100%;
+    background-attachment: scroll;
+}
+footer{
+    background-color: #344e41;
+    position: relative;
+}
+#footer>li{
+    font-family: Comic Sans MS;
+    display:inline-block;
+    color: white;
+    margin: .5em;
+    border: .2em solid #fcbf49; 
+    border-radius: .3em;
+    padding: 0.1em .5em;
+}
+#footer>li:hover{
+    border: .2em solid #fcbf49; 
+    color: white;
+    box-shadow: 0 0.5em 0.5em -.4em #f1ff5c;
+    cursor: pointer;
+    transition: color .25s, border-color 0.25s , box-shadow 0.25s , transform 0.25s;
+    transform: translateY(-.25em);
+    text-align: inherit;
+    background-color: #3a5a40;
+}
+#search{
+    transform: translate(55.5em,-3.5em);
+    border: solid .2em #fcbf49;
+    border-radius: .3em;
+}
+input{
+    display: inline-block;
+    position: relative;
+
+}
