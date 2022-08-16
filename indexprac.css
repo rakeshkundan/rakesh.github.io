@@ -135,3 +135,8 @@ main{
     border-radius: .2em;
     cursor:  pointer;
 }
+main{
+    background-image: url(pexels-jess-bailey-designs-1097930.jpeg);
+    background-size:100%;
+    background-attachment: scroll;
+}
